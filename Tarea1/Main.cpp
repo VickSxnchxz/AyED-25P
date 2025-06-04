@@ -16,8 +16,8 @@ int main(){
     int eve[m]; 
     for(int i=0;i<m;++i){ 
         scanf("%d",&eve[i]); 
-    } 
- 
+    }
+
  
     for(int i=0;i<m;++i){ 
         if(eve[i]){ 
@@ -27,21 +27,19 @@ int main(){
            in=0; 
           ++res; 
         } 
-    } 
- 
-       if(res>0){ 
-          for(int i = 0; i<n;++i){ 
-             arr[i]=0; 
+    }
+    if(res>0){ 
+     for(int i = 0; i<n;++i){ 
+           arr[i]=0; 
           } 
        } 
    for (int i = 0; i<n;i++){ 
       arr[i]+=in; 
-   } 
+   }
+
  
    for(int i=0;i<n;i++){ 
       printf("%d ",arr[i]); 
    } 
- 
- 
     return 0; 
 }
