@@ -1,5 +1,8 @@
 #include <stdio.h> 
- 
+\*
+ Eventos sencillos sobre arreglos completos
+https://omegaup.com/arena/problem/Eventos-sencillos-sobre-arreglos 
+ *\
 int main(){ 
  
     int n,m,in=0,res=0; 
